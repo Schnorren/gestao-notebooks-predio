@@ -1,21 +1,19 @@
 # Sistema de Gestão de Notebooks
 
-## Inspiração do projeto:
-Haviamos um problema logístico na empresa que trabalhavamos relacionado ao notebooks. Possuíamos 85 notebooks para empréstimo a alunos e muitos desses notebooks tinham que sair para manutenção, o que levou a uma perca de controle pela equipe responsável. Com base nisso, decidi desenvolver um sistema que fosse intuitívo, que as pessoas já estivessem familiarizadas (que não precisasse de um forte treinamento), que fosse que rápida implantação e fosse facilmente migrável de máquina para máquina. Pesquisando um pouco achei a solução, utilizar o Google Sheets integrado ao Google Apps Script.
-
-## Descrição do projeto:
-Este projeto é um sistema de controle de notebooks destinado a gerenciar as operações de manutenção e empréstimos de equipamentos em um ambiente corporativo. Ele foi desenvolvido para ser usado em uma planilha do Google Sheets, integrando o uso de Google Apps Script para automação das ações de controle de status, movimentação e atualização dos dados dos notebooks, no caso dessa empresa na qual o sistema foi implementado.
+Este projeto é um sistema de controle de notebooks destinado a gerenciar as operações de manutenção e empréstimos de equipamentos em um ambiente corporativo. Ele foi desenvolvido para ser usado em uma planilha do Google Sheets, integrando o uso de Google Apps Script para automação das ações de controle de status, movimentação e atualização dos dados dos notebooks.
 
 ## Funcionalidades
 
-### 1. Controle de Manutenção
-Gerencia o registro de notebooks enviados para manutenção, incluindo o número de demanda, a descrição do problema e a data de saída. Também permite o registro da data de retorno e a atualização do status para "Concluído" quando a manutenção for finalizada.
+### Controle de Manutenção
+- Gerencia o registro de notebooks enviados para manutenção, incluindo o número de demanda, a descrição do problema e a data de saída.
+- Registra a data de retorno e a atualização do status para "Concluído" quando a manutenção for finalizada.
 
-### 2. Controle de Empréstimos
-Permite registrar a saída de notebooks para empréstimos, associando o equipamento ao destino e a data de saída. Similar à manutenção, o retorno também é registrado, com a atualização do status do equipamento.
+### Controle de Empréstimos
+- Permite registrar a saída de notebooks para empréstimos, associando o equipamento ao destino e a data de saída.
+- Similar à manutenção, o retorno também é registrado, com a atualização do status do equipamento.
 
-### 3. Controle de Status de Notebooks
-Acompanhamento contínuo do status de cada notebook, incluindo se está disponível, em manutenção ou emprestado.
+### Controle de Status de Notebooks
+- Acompanhamento contínuo do status de cada notebook, incluindo se está disponível, em manutenção ou emprestado.
 
 ## Estrutura da Planilha
 
@@ -26,8 +24,6 @@ As informações são organizadas em três abas no Google Sheets:
 - **Empréstimo**: Controla os empréstimos de notebooks, incluindo o número do notebook, patrimônio, destino, data de saída, data de retorno e status.
 
 ## Instalação e Configuração
-
-Para utilizar o sistema:
 
 1. **Importar para o Google Sheets**:
    - Crie uma nova planilha no Google Sheets.
@@ -60,5 +56,4 @@ Se desejar modificar ou adicionar funcionalidades:
 
 ## Licença
 
-Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT). Você pode usar, modificar e distribuir este código com a devida atribuição.
-  
+Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT).

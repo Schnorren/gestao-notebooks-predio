@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base target="_top">
+</head>
+<body>
+  <h3>Gestão de Notebooks</h3>
+  
+  <button onclick="saidaParaManutencao()">Saída para Manutenção</button>
+  <br><br>
+  <button onclick="retornoDeManutencao()">Retorno de Manutenção</button>
+  <br><br>
+  <button onclick="saidaParaEmprestimo()">Saída para Empréstimo</button>
+  <br><br>
+  <button onclick="retornoDeEmprestimo()">Retorno de Empréstimo</button>
+
+  <script>
+    function saidaParaManutencao() {
+      google.script.run.saidaParaManutencaoUI();
+    }
+    
+    function retornoDeManutencao() {
+      google.script.run.retornoDeManutencaoUI();
+    }
+    
+    function saidaParaEmprestimo() {
+      google.script.run.saidaParaEmprestimoUI();
+    }
+    
+    function retornoDeEmprestimo() {
+      google.script.run.retornoDeEmprestimoUI();
+    }
+  </script>
+</body>
+</html>
