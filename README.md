@@ -22,8 +22,11 @@ Acompanhamento contínuo do status de cada notebook, incluindo se está disponí
 As informações são organizadas em três abas no Google Sheets:
 
 - **Notebooks**: Contém dados sobre o número do notebook, patrimônio, modelo, código de barras e status atual.
+- ![Tabela de Notebooks](docs/tabela_notebooks.png)
 - **Manutenção**: Registra as demandas de manutenção, o número do notebook, patrimônio, descrição do problema, data de saída, data de retorno e o status da manutenção.
+- - ![Tabela de Manutenção](docs/tabela_manutencao.png)
 - **Empréstimo**: Controla os empréstimos de notebooks, incluindo o número do notebook, patrimônio, destino, data de saída, data de retorno e status.
+- - ![Tabela de Empréstimo](docs/tabela_emprestimo.png)
 
 ## Instalação e Configuração
 
